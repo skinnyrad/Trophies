@@ -1,3 +1,4 @@
+![Skinny Trophy](https://user-images.githubusercontent.com/130998848/236049238-0e1efd14-98a2-4cc4-9537-eff34954c249.png)
 # Trophies
 
 Trophy list of zero-day vulnerabilities discovered:
