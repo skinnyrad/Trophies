@@ -50,6 +50,10 @@ Trophy list of zero-day vulnerabilities discovered:
 
 ## Discovered Vulnerabilities
 
+
+* [Libboron 2.0.8 Heap buffer overflow in ur_parseBlockI at i_parse_blk.c](https://github.com/0branch/boron/issues/3)
+* [Libboron 2.0.8 Heap buffer overflow in ur_strInitUtf8 at string.c](https://github.com/0branch/boron/issues/3)
+* [async-sockets-cpp v0.3.1 off-by-one stack buffer overflow in udpsocket.hpp](https://github.com/eminfedar/async-sockets-cpp/issues/32)
 * [N-Prolog v1.94 Out-of-bounds read in add_data() at data.c](https://github.com/sasagawa888/nprolog/issues/78)
 * [N-Prolog v1.94 Out-of-bounds read in prove_all() at main.c](https://github.com/sasagawa888/nprolog/issues/78)
 * [N-Prolog v1.94 Stack exhaustion in deref() at data.c](https://github.com/sasagawa888/nprolog/issues/78)
