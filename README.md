@@ -9,7 +9,7 @@ Trophy list of zero-day vulnerabilities discovered:
 * [Libboron 2.0.8 Heap buffer overflow in ur_parseBlockI at i_parse_blk.c (CVE-2023-40294)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40294)
 * [Libboron 2.0.8 Heap buffer overflow in ur_strInitUtf8 at string.c (CVE-2023-40295)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40295)
 * [async-sockets-cpp v0.3.1 off-by-one stack buffer overflow in udpsocket.hpp (CVE-2023-40296)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40296)
-* [async-sockets-cpp stack buffer overflow (CVE-2023-38632)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38632)
+* [async-sockets-cpp v0.3.1 stack buffer overflow (CVE-2023-38632)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38632)
 * [xHTTP Double Free in close_connection at xhttp.c (CVE-2023-38434)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38434)
 * [Global Buffer Overflow in N-Prolog Version 1.91 (CVE-2022-43343)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43343)
 * [html2xhtml v1.3 Out-Of-Bounds read (CVE-2022-44311)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44311)
