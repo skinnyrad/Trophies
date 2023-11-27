@@ -54,8 +54,8 @@ Trophy list of zero-day vulnerabilities discovered:
 
 ## Discovered Vulnerabilities
 
-* (ehttp commit 716ff7a Use-after-free in read_func(void*) at epoll_socket.cpp)[https://skinnyrd.com/zero-day-research-ehttp-use-after-free-and-out-of-bounds-read/]
-* (ehttp commit 716ff7a Out-of-bounds-read in void _log at simple_log.cpp)[https://skinnyrd.com/zero-day-research-ehttp-use-after-free-and-out-of-bounds-read/]
+* [ehttp commit 716ff7a Use-after-free in read_func(void*) at epoll_socket.cpp](https://skinnyrd.com/zero-day-research-ehttp-use-after-free-and-out-of-bounds-read/)
+* [ehttp commit 716ff7a Out-of-bounds-read in void _log at simple_log.cpp](https://skinnyrd.com/zero-day-research-ehttp-use-after-free-and-out-of-bounds-read/)
 * [N-Prolog v1.94 Out-of-bounds read in add_data() at data.c](https://github.com/sasagawa888/nprolog/issues/78)
 * [N-Prolog v1.94 Out-of-bounds read in prove_all() at main.c](https://github.com/sasagawa888/nprolog/issues/78)
 * [N-Prolog v1.94 Stack exhaustion in deref() at data.c](https://github.com/sasagawa888/nprolog/issues/78)
