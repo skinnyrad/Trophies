@@ -6,6 +6,8 @@ Trophy list of zero-day vulnerabilities discovered:
 
 ## CVEs
 
+* [ehttp commit 716ff7a Use-after-free in read_func(void*) at epoll_socket.cpp (CVE-2023-52266)](https://www.cve.org/CVERecord?id=CVE-2023-52266)
+* [ehttp commit 716ff7a Out-of-bounds-read in void _log at simple_log.cpp (CVE-2023-52267)](https://www.cve.org/CVERecord?id=CVE-2023-52267)
 * [MicroHTTPServer off-by-one global buffer overflow in _ParseHeader at lib/server.c (CVE-2023-51771)](https://www.cve.org/CVERecord?id=CVE-2023-51771)
 * [MicroHttpServer Remote Buffer Overflow in uint8_t _ReadStaticFiles(HTTPReqMessage *req, HTTPResMessage *res) at lib/middleware.c (CVE-2023-50965)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50965)
 * [Liblisp Out of Bounds Read vulnerability in unsigned get_length(lisp_cell_t * x) at eval.c (CVE-2023-48025)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48025)
@@ -13,11 +15,11 @@ Trophy list of zero-day vulnerabilities discovered:
 * [Libboron 2.0.8 Heap buffer overflow in ur_parseBlockI at i_parse_blk.c (CVE-2023-40294)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40294)
 * [Libboron 2.0.8 Heap buffer overflow in ur_strInitUtf8 at string.c (CVE-2023-40295)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40295)
 * [async-sockets-cpp v0.3.1 off-by-one stack buffer overflow in udpsocket.hpp (CVE-2023-40296)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40296)
-* [async-sockets-cpp v0.3.1 stack buffer overflow (CVE-2023-38632)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38632)
+* [async-sockets-cpp v0.3.1 stack buffer overflow in tcpsocket.hpp (CVE-2023-38632)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38632)
 * [xHTTP Double Free in close_connection at xhttp.c (CVE-2023-38434)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38434)
 * [Global Buffer Overflow in N-Prolog Version 1.91 (CVE-2022-43343)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43343)
 * [html2xhtml v1.3 Out-Of-Bounds read (CVE-2022-44311)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44311)
-* [PicoC v3.2.2 Heap Overflow in the ExpressionCoerceInteger function in expression.c (CVE-2022-44312)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44313)
+* [PicoC v3.2.2 Heap Overflow in the ExpressionCoerceInteger function in expression.c (CVE-2022-44312)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44312)
 * [PicoC v3.2.2 Heap Overflow in the ExpressionCoerceUnsignedInteger function in expression.c (CVE-2022-44313)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44313)
 * [PicoC v3.2.2 Heap Overflow in the StringStrncpy function in cstdlib/string.c (CVE-2022-44314)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44314)
 * [PicoC v3.2.2 Heap Overflow in the ExpressionAssign function in expression.c (CVE-2022-44315)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44315)
@@ -34,7 +36,8 @@ Trophy list of zero-day vulnerabilities discovered:
 * [PicoC Version v3.2.2 Null Pointer Dereference (CVE-2022-34556)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34556)
 * [Rockwell Automation MicroLogix 1400 and CompactLogix 5370 Controllers Open Redirect (ICSA-19-113-01)](https://www.cisa.gov/uscert/ics/advisories/ICSA-19-113-01)
 
-## CVEs in process
+
+## Discovered Vulnerabilities
 
 * [Libforth v4.0 Null pointer dereference in int forth_run(forth_t *o) at libforth/libforth.c, line 2615](https://github.com/howerj/libforth/issues/5)
 * [Libforth v4.0 Out of bounds read in int forth_run(forth_t *o) at libforth/libforth.c, line 2666](https://github.com/howerj/libforth/issues/5)
@@ -54,11 +57,6 @@ Trophy list of zero-day vulnerabilities discovered:
 * [Libforth v4.0 Invalid free in int forth_run(forth_t *o) at libforth.c, line 2745](https://github.com/howerj/libforth/issues/5)
 * [Libforth v4.0 Out of bounds read in static int match(forth_cell_t *m, forth_cell_t pwd, const char *s) at libforth.c, line 1306](https://github.com/howerj/libforth/issues/5)
 * [SimpleNetwork TCP Server Global Buffer Overflow](https://github.com/kashimAstro/SimpleNetwork/issues/23)
-
-## Discovered Vulnerabilities
-
-* [ehttp commit 716ff7a Use-after-free in read_func(void*) at epoll_socket.cpp](https://skinnyrd.com/zero-day-research-ehttp-use-after-free-and-out-of-bounds-read/)
-* [ehttp commit 716ff7a Out-of-bounds-read in void _log at simple_log.cpp](https://skinnyrd.com/zero-day-research-ehttp-use-after-free-and-out-of-bounds-read/)
 * [N-Prolog v1.94 Out-of-bounds read in add_data() at data.c](https://github.com/sasagawa888/nprolog/issues/78)
 * [N-Prolog v1.94 Out-of-bounds read in prove_all() at main.c](https://github.com/sasagawa888/nprolog/issues/78)
 * [N-Prolog v1.94 Stack exhaustion in deref() at data.c](https://github.com/sasagawa888/nprolog/issues/78)
