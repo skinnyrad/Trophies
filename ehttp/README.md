@@ -5,6 +5,9 @@ When executing some fuzz tests I discovered a few bugs in ehttp (up to commit 71
 * Out-of-bounds-read in void _log at simple_log.cpp:221 (CVE-2023-52267)
 * Use-after-free in read_func(void*) at epoll_socket.cpp:234 (CVE-2023-52266)
 
+NOTE: For an in-depth walkthrough on this vulnerability, read [this article](https://skinnyrd.com/zero-day-research-ehttp-use-after-free-and-out-of-bounds-read/) on our offical site.
+
+
 ## Out-of-bounds-read (CVE-2023-52267) in void _log at simple_log.cpp:221 when sending a malformed HTTP method, large url, or large HTTP header value to the server 
 
 ```

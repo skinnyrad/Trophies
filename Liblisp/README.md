@@ -5,6 +5,8 @@ Per usual, I ran my fuzz tests in the background against liblisp and found a cou
 * CVE-2023-48024:  Use-after-free in void hash_destroy(hash_table_t *h) at hash.c, lines 70-84.
 * CVE-2023-48025: Out-of-bounds read in unsigned get_length(lisp_cell_t * x) at eval.c, line 272.
 
+NOTE: For an in-depth walkthrough on this vulnerability, read [this article](https://skinnyrd.com/zero-day-research-cve-2023-48024-and-cve-2023-48025/) on our offical site.
+
 # CVE-2023-48024
 
 There exist a use-after-free bug in void hash_destroy(hash_table_t *h) at hash.c, lines 70-84.    
